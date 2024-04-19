@@ -1,0 +1,23 @@
+footer{
+	background-color: #4A4A59;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) {
+	footer{
+		padding: 20px 40px;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	footer{
+		padding: 20px 40px;
+	}
+}
+@media (max-width: 767px) {
+	footer{
+		padding: 20px 40px;
+	}
+}
