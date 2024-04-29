@@ -111,12 +111,6 @@ textarea {
   overflow: auto;
 }
 
-[type='checkbox'],
-[type='radio'] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
 
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
@@ -133,5 +127,13 @@ textarea {
   }
 }
 body{
-  padding: 150px 0;
+
+}
+#root{
+  margin-top: 150px;
+  min-height: 100vh;
+  line-height: 1;
+  text-rendering: optimizeSpeed;
+  position: relative;
+  min-height: 100vh;
 }

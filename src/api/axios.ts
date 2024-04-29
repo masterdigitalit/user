@@ -1,10 +1,10 @@
 import axios from "axios";
 
 const baseURL = () => {
-	if (import.meta.env.VITE_MODE === "development") {
+	if (process.env.REACT_MODE === "development") {
 		return `http://192.168.1.3:3000/`;
 	}
-	if (import.meta.env.VITE_MODE === "production") {
+	if (process.env.REACT_MODE === "production") {
 		return "https://svg-blog-server.onrender.com/";
 	}
 };
